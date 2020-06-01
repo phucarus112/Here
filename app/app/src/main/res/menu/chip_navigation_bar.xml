@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#fff">
+    <item android:id="@+id/find_choice"
+        android:icon="@drawable/location"
+        android:title="@string/map_choice"
+        app:cnb_backgroundColor = "@color/defaultColor"
+        app:cnb_iconColor = "#fff"
+        app:cnb_textColor = "#fff"/>
+    <item android:id="@+id/setting_choice"
+        android:icon="@drawable/setting"
+        app:cnb_backgroundColor = "@color/defaultColor"
+        app:cnb_iconColor = "#fff"
+        app:cnb_textColor = "#fff"
+        android:title="@string/setting_choice"/>
+</menu>

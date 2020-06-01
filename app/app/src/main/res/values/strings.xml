@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HERE</string>
+    <string name="map_api_key">AIzaSyC-tfj_Yp80NfM_4z63WyX6FVnSvLYO23A</string>
+    <string name="map_choice">Bản đồ</string>
+    <string name="setting_choice">Cài đặt</string>
+    <string name="hint_search">Nhập tên địa điểm</string>
+    <string name="header_title">Gần bạn</string>
+    <string name="result">Kết quả tìm kiếm</string>
+    <string name="direct">Chỉ đường</string>
+</resources>

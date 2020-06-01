@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/defaultColor"
+    android:padding="15dp">
+    <ImageView
+        android:id="@+id/icon_header"
+        android:layout_centerVertical="true"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/compass"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/icon_header"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_title"/>
+</RelativeLayout>

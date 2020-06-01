@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:background="@drawable/custom_background_iv"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/row_result_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/ic_launcher_round"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/row_result_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên chỗ"/>
+            <TextView
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:id="@+id/row_result_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RatingBar
+            android:hapticFeedbackEnabled="false"
+            android:defaultFocusHighlightEnabled="false"
+            android:id="@+id/row_result_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#00ff00"
+            android:numStars="5" />
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:id="@+id/row_result_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1)"/>
+    </LinearLayout>
+   <LinearLayout
+       android:id="@+id/row_result_direct"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:layout_width="25dp"
+           android:layout_height="25dp"
+           android:src="@drawable/treasure"/>
+       <TextView
+           android:layout_marginLeft="10dp"
+           android:layout_gravity="center_vertical"
+           android:fontFamily="sans-serif-condensed-medium"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/direct"/>
+   </LinearLayout>
+
+
+</LinearLayout>
